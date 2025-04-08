@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './octofitapp-small.png';
 
 function App() {
+  console.log('App component loaded');
   return (
     <Router>
       <div>
