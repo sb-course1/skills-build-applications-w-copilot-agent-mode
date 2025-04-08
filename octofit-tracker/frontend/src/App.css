@@ -1,0 +1,53 @@
+/* Add background color */
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the navigation menu */
+.navbar {
+  background-color: #007bff;
+}
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #fff;
+}
+.navbar .nav-link:hover {
+  color: #d4d4d4;
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff;
+}
+
+/* Style tables */
+.table {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+}
+.table th {
+  background-color: #007bff;
+  color: #fff;
+}
+.table td {
+  color: #343a40;
+}
+
+/* Style buttons */
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+}
+a:hover {
+  color: #0056b3;
+}
