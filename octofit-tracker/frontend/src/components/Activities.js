@@ -6,7 +6,11 @@ function Activities() {
   useEffect(() => {
     fetch('https://automatic-trout-r464qj4xwx4635v9p-8000.app.github.dev/api/activities/')
       .then(response => response.json())
-      .then(data => setActivities(data));
+      .then(data => {
+        console.log('Activities data:', data); // Debugging log
+        setActivities(data);
+      })
+      .catch(error => console.error('Error fetching activities:', error)); // Error handling
   }, []);
 
   return (
